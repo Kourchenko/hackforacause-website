@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav :class="navClass" class="navbar navbar-expand-lg">
     <router-link class="navbar-brand" to="/" @click="handleClick">
       <img src="~/assets/images/tao-circle-40x40.png" title="Technology Association of Oregon">
       HACK FOR A CAUSE
@@ -21,14 +21,16 @@
         <li v-for="(link, key) in links" :key="key" class="nav-item">
           <router-link :id="link.id ? link.id : null" :to="link.to" :title="link.title" class="nav-link" @click.native="handleClick" v-html="link.label"/>
         </li>
+        <!-- TODO: Update with 2020 Registration.
         <li class="nav-item">
           <a id="h4c-participate"
              class="nav-link"
-             href="https://www.eventbrite.com/e/hack-for-a-cause-registration-41925576528"
-             title="Participate in Hack for a Cause 2018"
+             href=""
+             title="Sign up for Hack for a Cause 2020"
              target="_blank"
-          >PARTICIPATE</a>
+          >Sign up!</a>
         </li>
+        -->
       </ul>
     </div>
   </nav>
@@ -36,6 +38,12 @@
 <script>
 export default {
     name: "HackNav",
+    props: {
+        navClass: {
+            type: [String, Array, Object],
+            default: "navbar-dark bg-dark"
+        }
+    },
     data() {
         return {
             expanded: false
@@ -50,9 +58,14 @@ export default {
          */
         this.links = [
             {
-                to: "/challenges-2018",
-                label: "2018 Challenges",
-                title: "This year's challenges"
+                to: "/",
+                label: "Home",
+                title: "Hack for a Cause Home"
+            },
+            {
+                to: "/schedule",
+                label: "SCHEDULE",
+                title: "Hack for a Cause Schedule"
             },
             {
                 to: "/faq",
@@ -60,9 +73,9 @@ export default {
                 title: "Frequently Asked Questions"
             },
             {
-                to: "/schedule",
-                label: "SCHEDULE",
-                title: "Schedule"
+                to: "/meet-our-team",
+                label: "Meet Our Team",
+                title: "Meet our Team"
             }
         ]
     },

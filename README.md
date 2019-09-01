@@ -34,7 +34,7 @@ $ npm run lint
 $ npm run lintfix
 
 # if you want to just build and deploy you can do so (saves you some typing)
-$ npm run pushLive
+$ npm run pushlive
 
 # At this point the gh-pages branch on your repo should be updated with the newly generated pages.
 ```
@@ -42,7 +42,5 @@ $ npm run pushLive
 ## Process for Updating Live Pages
 * Once you have deployed the pages to your own repo and everything is green, create a pull request for the gh-pages branch to merge with the live gh-pages repo branch.
 
-## View Stack for Nuxt
-![View Stack](https://nuxtjs.org/nuxt-views-schema.png)
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+## Using Nuxt
+* For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).

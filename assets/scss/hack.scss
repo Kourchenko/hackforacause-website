@@ -12,6 +12,7 @@
 @import "./header";
 @import "./sponsors";
 @import "./buttons";
+@import "./body";
 
 body {
     font-family: $font-family-base;
@@ -55,14 +56,30 @@ body {
     border: 3px solid get-color('yellow');
     border-left: none;
     border-right: none;
+    font-family: $headings-font-family;
     font-size: 30px;
-    line-height: 30px;
     padding: 5px 0;
     margin: 0;
 }
 
+@media(max-width:530px) {
+    .h4c--title {
+        line-height: 65px;
+    }
+}
+
 .h4c-bg--primary {
     background-color: get-color('yellow');
+
+    a {
+        color: $gray-500;
+        text-transform: none;
+        text-decoration: underline;
+
+        &:hover {
+            color: $gray-500;
+        }
+    }
 }
 
 .h4c-bg--secondary {
@@ -80,9 +97,10 @@ body {
 .h4c-bold {
     color: get-color('yellow');
     font-size: 30px;
+    font-family: $headings-font-family;
     padding-top: 45px;
+}
 
-    + div {
-        font-size: 18px;
-    }
+iframe, object, embed {
+    max-width: 100%;
 }

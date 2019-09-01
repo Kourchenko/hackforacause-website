@@ -9,13 +9,13 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "build:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build",
-    "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate && cp -rp CNAME dist/CNAME",
-    "generate": "nuxt generate && cp -rp CNAME dist/CNAME",
+    "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate && cp -rp CNAME dist/CNAME && cp -rp .circleci dist/.circleci",
+    "generate": "nuxt generate && cp -rp CNAME dist/CNAME && cp -rp .circleci dist/.circleci",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
     "deploy": "push-dir --dir=dist --branch=gh-pages --force",
-    "pushLive": "npm run generate && npm run deploy"
+    "pushlive": "npm run generate && npm run deploy"
   },
   "dependencies": {
     "npm": "^5.7.1",
@@ -33,7 +33,7 @@
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-vue": "^4.3.0",
     "hamburgers": "^0.9.3",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.12.0",
     "prettier": "^1.11.1",
     "push-dir": "^0.4.1",
     "sass-loader": "^6.0.7"

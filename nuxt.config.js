@@ -19,7 +19,7 @@ module.exports = {
                 hid: "description",
                 name: "description",
                 content:
-                    "Join Team &lt;Choose Problem&gt; Create Solution. Hack for a Cause - April 6-8 2018, a philanthropic Hackathon located in Eugene Oregon"
+                    "Join Team &lt;Choose Problem&gt; Create Solution. Hack for a Cause - April 4-6 2020, a philanthropic Hackathon located in Eugene Oregon"
             },
             { hid: `og:locale`, content: "en_US" },
             { hid: `og:site_name`, content: "Hack for a Cause" },
@@ -29,7 +29,7 @@ module.exports = {
             {
                 hid: `og:description`,
                 content:
-                    "Join Team &lt;Choose Problem&gt; Create Solution. Hack for a Cause - April 6-8 2018, a philanthropic Hackathon located in Eugene Oregon"
+                    "Join Team &lt;Choose Problem&gt; Create Solution. Hack for a Cause - April 4-6 2020, a philanthropic Hackathon located in Eugene Oregon"
             },
             { hid: `og:image`, content: "/h4c.jpg" }
         ],
@@ -38,7 +38,8 @@ module.exports = {
             {
                 rel: "stylesheet",
                 type: "text/css",
-                href: "https://fonts.googleapis.com/css?family=Share+Tech"
+                href:
+                    "https://fonts.googleapis.com/css?family=Share+Tech|Roboto"
             },
             {
                 rel: "stylesheet",
@@ -51,7 +52,7 @@ module.exports = {
     /*
   ** Customize the progress bar color
   */
-    loading: { color: "#3B8070" },
+    loading: { color: "#ECBE20" },
     /*
   ** Mode Configuration
   */

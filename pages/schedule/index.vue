@@ -4,7 +4,7 @@
       <hack-header header-class="h4c-header--main">
         <div class="row align-items-center mx-0">
           <div class="col text-center">
-            <h1 class="h4c--title d-inline">2018 Hack Schedule</h1>
+            <h1 class="h4c--title d-inline">2020 Hack Schedule</h1>
           </div>
         </div>
       </hack-header>
@@ -40,173 +40,32 @@ export default {
     created() {
         this.schedule = [
             {
-                date: "Friday, April 6",
+                date: "Friday, April 4",
                 events: [
                     {
-                        event: "Volunteer Orientation",
-                        time: "4:00 - 5:00pm",
-                        location: "Main Floor Entrance"
-                    },
-                    {
-                        event: "Registration/Check-in",
-                        time: "5:00 - 6:00",
-                        location: "Main Floor Entrance"
-                    },
-                    {
-                        event: "VIP/Sponsor Reception",
-                        time: "5:00 - 6:00",
-                        location: "Ballroom Foyer"
-                    },
-                    {
-                        event: "Team Formation",
-                        time: "5:00 - 6:15",
-                        location: "Ballroom"
-                    },
-                    {
-                        event: "Greetings: Matt Sayre",
-                        time: "6:15 - 6:20",
-                        location: "Ballroom"
-                    },
-                    {
-                        event: "Welcome: Lucy Vinis",
-                        time: "6:20 - 6:25",
-                        location: "Ballroom"
-                    },
-                    {
-                        event: "Sponsor Thank Yous: Allison Weatherly",
-                        time: "6:25 - 6:30",
-                        location: "Ballroom"
-                    },
-                    {
-                        event: "Keynote: Scott Turnbull",
-                        time: "6:30 - 6:45",
-                        location: "Ballroom"
-                    },
-                    {
-                        event: "Challenge Presentation Video",
-                        time: "6:45 - 7:00",
-                        location: "Ballroom"
-                    },
-                    {
-                        event: "&quot;The Nitty Gritty&quot; Mark Davis",
-                        time: "7:00 - 7:30",
-                        location: "Ballroom"
-                    },
-                    {
-                        event: "HACK BEGINS!",
-                        time: "8:00",
-                        location: "Ballroom",
-                        options: {
-                            class: "text-success"
-                        }
-                    },
-                    {
-                        event: "Snack &amp; Swag Room",
-                        time: "9:00 - April 8 @ Noon",
-                        location: "Sunset Room"
+                        event: "TBA",
+                        time: "TBA",
+                        location: "TBA"
                     }
                 ]
             },
             {
-                date: "Saturday, April 7",
+                date: "Saturday, April 5",
                 events: [
                     {
-                        event: "Late Night Giveaways",
-                        time: "Midnight",
-                        location: "Ballroom"
-                    },
-                    {
-                        event: "Breakfast: IDX Burritos",
-                        time: "7:00 am",
-                        location: "Ballroom",
-                        options: {
-                            class: "text-info"
-                        }
-                    },
-                    {
-                        event: "Help Desk (mentors)",
-                        time: "10:00 am - 6:00 pm",
-                        location: "Ballroom"
-                    },
-                    {
-                        event: "Lunch: Nacho Bar",
-                        time: "Noon",
-                        location: "Ballroom",
-                        options: {
-                            class: "text-info"
-                        }
-                    },
-                    {
-                        event: "Dinner: Cafe Yumm!",
-                        time: "6:00",
-                        location: "Ballroom",
-                        options: {
-                            class: "text-info"
-                        }
+                        event: "TBA",
+                        time: "TBA",
+                        location: "TBA"
                     }
                 ]
             },
             {
-                date: "Sunday, April 8",
+                date: "Sunday, April 6",
                 events: [
                     {
-                        event: "Late Night Fun",
-                        time: "Midnight",
-                        location: "Sunset Room"
-                    },
-                    {
-                        event: "Breakfast: Voodoo Donuts + Bagels",
-                        time: "8:00 am",
-                        location: "Ballroom",
-                        options: {
-                            class: "text-info"
-                        }
-                    },
-                    {
-                        event: "HACKING ENDS!",
-                        time: "NOON",
-                        location: "Ballroom",
-                        options: {
-                            class: "text-danger"
-                        }
-                    },
-                    {
-                        event: "Brunch",
-                        time: "11:00 - 1:00 pm",
-                        location: "Ballroom",
-                        options: {
-                            class: "text-info"
-                        }
-                    },
-                    {
-                        event: "Judge Orientation",
-                        time: "11:30 - Noon",
-                        location: "AxBilly Grill"
-                    },
-                    {
-                        event: "Judging",
-                        time: "12:30 - 1:30",
-                        location: "Ballroom"
-                    },
-                    {
-                        event: "Closing Ceremonies Registration",
-                        time: "1:00",
-                        location: ""
-                    },
-                    {
-                        event: "Presentation / Video Recap",
-                        time: "2:00 - 3:00",
-                        location: "Ballroom"
-                    },
-                    {
-                        event: "Awards",
-                        time: "3:00 - 4:00",
-                        location: "Ballroom"
-                    },
-                    {
-                        event: "Photos &amp; Thank Yous",
-                        time: "4:00 - 5:00",
-                        location: "Ballroom"
+                        event: "TBA",
+                        time: "TBA",
+                        location: "TBA"
                     }
                 ]
             }
